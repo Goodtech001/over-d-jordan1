@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chipboard-screw</title>
+</head>
+<body style="background-color: black; ">
+    <nav>
+        <div class="logo">
+            <img src="over-d jordan logo .jpg" style="width: 100px;">
+        </div>
+    </nav>
+    <div class="stuff">
+    <h2 style="color: white; text-align: center;">Chipboard Screws</h2>
+    <img src="chipboard-screw.jpg" style="width: 400px; border-radius: 30px;margin-left: 35%;" >
+    <p style="color: white;font-size: 20px; text-align: center;">The <b>Chipboard screw</b> is mainly used for woodworking. For this reason, the thread is deeper and bigger than the countersunk head screws for a larger gripping force in the wood material.</p>
+    </div>
+    
+    
+</body>
+</html>

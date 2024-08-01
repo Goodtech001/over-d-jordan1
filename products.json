@@ -1,0 +1,148 @@
+[
+    {
+      "id": 1,
+      "name": "Self drilling screws",
+      "price": "Contact for current prices",
+      "image": "./self-drilling.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Chipboard screws",
+      "price": "Contact for current prices",
+      "image": "./chipboard-screw.jpg"
+    },
+    {
+      "id": 3,
+      "name": " Black screws",
+      "price": "Contact for current prices",
+      "image": "./Black-Screw.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Bolt and Nuts",
+      "price": "Contact for current prices",
+      "image": "./bolt and nut.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Tee Nuts",
+      "price": "Contact for current prices",
+      "image": "./tee nut.webp"
+    },
+    {
+      "id": 6,
+      "name": "Rawl Bolt",
+      "price": "Contact for current prices",
+      "image": "./rawl bolt.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Hilti Bolt",
+      "price": "Contact for current prices",
+      "image": "./hilti bolt.webp"
+    },
+    {
+      "id": 8,
+      "name": "Tapping Screws",
+      "price": "Contact for current prices",
+      "image": "./Tapping screw.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Anchor Nut",
+      "price": "Contact for current prices",
+      "image": "./anchor nut.webp"
+    },
+    {
+      "id": 10,
+      "name": "Butterfly Nut",
+     " price": "Contact for current prices",
+      "image": "./butterfly.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Washers",
+      "price": "Contact for current prices",
+      "image": "./spring_washer.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Threaded Rods",
+      "price": "Contact for current prices",
+      "image": "./Threaded-Rods.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Jp Bolt",
+      "price": "Contact for current prices",
+      "image": "./jp bolt.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Spring Nuts",
+      "price": "Contact for current prices",
+      "image": "./springnut.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Spring Washer",
+      "price": "Contact for current prices",
+      "image": "./spring_washer.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Joiner",
+      "price": "Contact for current prices",
+      "image": "./joiner.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Fischer",
+      "price": "Contact for current prices",
+      "image": "./fischer.png"
+    },
+    {
+      "id": 18,
+      "name": "Elevator Bolt",
+      "price": "Contact for current prices",
+      "image": "./elevator bolt.webp"
+    },
+    {
+      "id": 19,
+      "name": "Hard hat",
+      "price": "4,800",
+      "image": "./hard-hat.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Ear Muffs",
+      "price": "18,000",
+      "image": "ima/earmuff.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Safety Boots",
+      "price": "20,000",
+      "image": "boots.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Safety Glasses",
+      "price": "1,000",
+      "image": "ima/safety glasses.png"
+    },
+    {
+      "id": 23,
+      "name": "Respirator",
+      "price": "12,000",
+      "image": "ima/respirator.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Safety vest",
+      "price": "2,000",
+      "image": "ima/vest.jpg"
+    }
+  ]
+  
+  
