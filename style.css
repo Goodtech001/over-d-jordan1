@@ -1549,6 +1549,9 @@ body.activeTabCart .container{
     .main-product img{
         width: 80%;
     }
+    .flex{
+        display:grid;
+    }
     /* .flex{
         grid-template-columns: repeat( 2 , 22rem );
     } */
