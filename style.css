@@ -1552,9 +1552,9 @@ body.activeTabCart .container{
     .flex{
         display:grid;
     }
-    /* .flex{
-        grid-template-columns: repeat( 2 , 22rem );
-    } */
+    .flex{
+        grid-template-columns: repeat( 1 , 22rem );
+    } 
 }
 #msg{
     color: #61b752;
