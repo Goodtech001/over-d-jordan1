@@ -1580,7 +1580,13 @@ body.activeTabCart .container{
         width: 80%;
     }
     .flex{
+<<<<<<< HEAD
         display: grid;
+=======
+        display:grid;
+    }
+    .flex{
+>>>>>>> 59f0a3570c0179ad050a880049c07b9782babe30
         grid-template-columns: repeat( 1 , 22rem );
     } 
 }
