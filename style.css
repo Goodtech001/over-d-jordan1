@@ -309,6 +309,14 @@ nav ul li a:hover::after{
     gap: 25px;
     margin-top: 25px;
 }
+.flexa{
+    display:grid;
+    grid-template-columns: repeat( 3 , 22rem );
+    /* grid-template-columns: 50px 1fr 70px; */
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+}
 .prod .main-product .product{
     text-align: center;
 }
@@ -347,13 +355,14 @@ nav ul li a:hover::after{
  }
  .new1{
     text-align: center;
+    margin-left: 105%;
  }
  .new1 h3{
     margin-top: 15px;
     font-family: 'Times New Roman', Times, serif;
  }
- .product a{
-    margin-left: 8%;
+ .product .add{
+    /* margin-left: 8%;
     display: block;
     margin-top: 10px;
     margin: 50px auto;
@@ -364,10 +373,21 @@ nav ul li a:hover::after{
     text-decoration: none;
     color: #fff;
     transition: background 0.5s;
-    background:#FCA311;
+    background:#FCA311; */
+    margin-top: 10px;
+    color: #9CA3DB;
+    transition: 0.5s;
 }
-.product a:hover{
-    background:lightgreen;
+.add button{
+    padding:10px 15px;
+    border: 1px solid #9CA3DB;
+    background-color: transparent;
+    color: #9CA3DB;
+    transition: 0.5s;
+}
+.add button:hover{
+    background: #9CA3DB;
+    color: black;
 }
 .product-container h1{
     font-size: 30px;
@@ -502,6 +522,15 @@ nav ul li a:hover::after{
     color: #9CA3DB;
     font-family: 'Times New Roman', Times, serif;
 }
+.flexa button{
+
+}.flexa p{
+    font-family: 'Chakra Petch';
+    margin-top: 10px;
+    color: #9CA3DB;
+    font-size: 18px;
+}
+
 footer ul li{
     display: inline-block;
     list-style: none;
@@ -1147,12 +1176,12 @@ body.activeTabCart .container{
     position: absolute;
     left: 0;
     bottom: -8px;
-    transition: o.5s;
+    transition: 0.5s;
 }
 .tab-links.active-link::after{
     width: 50%;
 }
-.tab-contents ul li{
+.prod {
     list-style: none;
     margin: 10px 0;
 }
@@ -1368,15 +1397,13 @@ body.activeTabCart .container{
         flex-direction: column;
     }
     .bar{
-        flex-direction: column;
-        justify-content: center;
+        display: none;
     }
     .bar img{
         margin-top: 20%;
     }
     .bar2{
-        flex-direction: column;
-        justify-content: center;
+        display: none;
     }
     .bar2 p{
         text-align: center;
@@ -1527,6 +1554,9 @@ body.activeTabCart .container{
      .news{
         flex-direction: column;
      }
+     .flexa{
+        display: block;
+     }
      .box input, .box textarea{
         width:170px;
         border: 0;
@@ -1549,9 +1579,10 @@ body.activeTabCart .container{
     .main-product img{
         width: 80%;
     }
-    /* .flex{
-        grid-template-columns: repeat( 2 , 22rem );
-    } */
+    .flex{
+        display: grid;
+        grid-template-columns: repeat( 1 , 22rem );
+    } 
 }
 #msg{
     color: #61b752;
