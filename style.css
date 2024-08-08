@@ -742,7 +742,7 @@ footer .policy{
     padding: 20px;
     border-radius: 50px;
     position:fixed;
-    bottom: 200px;
+    bottom: 100px;
     margin-left: 80%;
     transition: background 0.5s;  
     text-decoration: none;
@@ -1355,6 +1355,19 @@ body.activeTabCart .container{
         left: 25px;
         cursor: pointer;
     }
+    .talk{
+        font-size: 20px;
+        text-decoration: none;
+        background: #9CA3DB;
+        width: fit-content;
+        padding: 20px;
+        border-radius: 50px;
+        position:fixed;
+        bottom: 100px;
+        margin-left: 80%;
+        transition: background 0.5s;  
+        text-decoration: none;
+    }
     .head .stuff{
         display: block;
         border: 2px solid linen;
@@ -1527,7 +1540,7 @@ body.activeTabCart .container{
         padding: 20px;
         border-radius: 50px;
         position:fixed;
-        bottom: 200px;
+        bottom: 100px;
         margin-left: 40%;
         transition: background 0.5s;  
         text-decoration: none;
@@ -1557,6 +1570,9 @@ body.activeTabCart .container{
      .flexa{
         display: block;
      }
+     .flex{
+        display: block;
+     }
      .box input, .box textarea{
         width:170px;
         border: 0;
@@ -1579,16 +1595,9 @@ body.activeTabCart .container{
     .main-product img{
         width: 80%;
     }
-    .flex{
-<<<<<<< HEAD
-        display: grid;
-=======
-        display:grid;
+    .new1{
+        margin-left: 0;
     }
-    .flex{
->>>>>>> 59f0a3570c0179ad050a880049c07b9782babe30
-        grid-template-columns: repeat( 1 , 22rem );
-    } 
 }
 #msg{
     color: #61b752;
