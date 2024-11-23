@@ -31,8 +31,8 @@ function addDataToHTML(){
       newProducts.innerHTML =
       `<img src="${products.image}">
       <h3>${products.name}</h3>
-       <p >&#x20A6; ${products.price}</p>
-       <div class="add"><button onclick="addCart(${products.id})">Add To Cart</button></div>`;
+       <p >&#x20A6;${products.price}</p>
+       <div class="add"><a href="#form"><button>Ask for price</button></a></div>`;
        flexHTML.appendChild(newProducts);
     });
   }
@@ -76,7 +76,7 @@ function addCartToHTML(){
   listcartsHTML.innerHTML = '';
 
 
-  let totaHTML = document.querySelector('.totalQuantity');
+  let totalHTML = document.querySelector('.totalQuantity');
   let totalQuantity = 0;
 
   if(listcarts){
@@ -102,8 +102,7 @@ function addCartToHTML(){
       }
     })
   }
-
-  totaHTML.innerText = totalQuantity;
+  totalHTML.innerText = totalQuantity;
 }
 function changeQuantity($idproducts, $type){
   switch ($type) {
@@ -127,3 +126,5 @@ function changeQuantity($idproducts, $type){
   // reload the cart in html
   addCartToHTML();
 }
+
+

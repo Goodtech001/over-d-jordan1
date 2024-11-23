@@ -3,55 +3,55 @@
     {
       "id": 1,
       "name": "Hard hat",
-      "price": "4,800",
+      "price": "4800",
       "image": "./hard-hat.jpg"
     },
     {
       "id": 2,
       "name": "Ear Muffs",
-      "price": "18,000",
+      "price": "18000",
       "image": "ima/earmuff.jpg"
     },
     {
       "id": 3,
       "name": "Safety Boots",
-      "price": "20,000",
+      "price": "20000",
       "image": "boots.jpg"
     },
     {
       "id": 4,
       "name": "Safety Glasses",
-      "price": "1,000",
+      "price": "1000",
       "image": "ima/safety glasses.png"
     },
     {
       "id": 5,
       "name": "Respirator",
-      "price": "12,000",
+      "price": "12000",
       "image": "ima/respirator.jpg"
     },
     {
       "id": 6,
       "name": "Safety vest",
-      "price": "2,000",
+      "price": "2000",
       "image": "ima/vest.jpg"
     },
     {
       "id": 7,
       "name": "Hand grinding machine",
-      "price": "120,000",
+      "price": "120000",
       "image": "gring.jpg"
     },
     {
       "id": 8,
       "name": "Electric Saw",
-      "price": "120,000",
+      "price": "120000",
       "image": "tree cutter.jpg"
     },
     {
       "id": 9,
       "name": "Driller",
-      "price": "70,000",
+      "price": "70000",
       "image": "drill2.jpg"
     }
   ]

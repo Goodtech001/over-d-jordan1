@@ -1,0 +1,1 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stripe-js/5.0.0/index.js" integrity="sha512-z9NEuukzgcBA2l1liXLLwQFL7XECAhupvIgFgX9ICw0GjxVE/CZUzbqPFt8SQkJ84CJQUlw3LiCKtTWmfP4u6Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

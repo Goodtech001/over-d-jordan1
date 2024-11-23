@@ -9,49 +9,66 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<script type="module"  src="login.js" defer></script>
+<script type="module"  src="signin.js" defer></script>
     <title>Over-D-Jordan</title>
 </head>
 
 <body>
     <div id="header">
-        <div class="navcontainer">
-            <nav>
-                <div class="nav2">
-                    <div class="logo">
-                        <img src="over-d jordan logo .jpg">
-                    </div>
-                    <ul id="sidemenu">
-                        <li><a href="#header">Home</a></li>
-                        <li><a href="#About">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#Bolt">Product</a></li>
-                        <li><a href="#Contact">Contact</a></li>
-                        <div class="nav3">
-                            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
-                        </div>
-                    </ul>
+        <nav>
+            <div class="logo">
+                <img src="over-d_jordan_logo_-removebg-preview (1).png">
+            </div>
 
-                    <!-- <div class="icon">
-                        <i class="fa-solid fa-eye"></i>
-                        <span>0</span>
-                    </div>
-                    <div class="icon">
-                        <i class="fa-solid fa-heart"></i>
-                        <span>0</span>
-                    </div> -->
 
-                    <!-- CART ICON -->
+            <ul id="sidemenu">
+                <li><a href="#header"><span>Home</span></a></li>
+                <li><a href="#vids">Services</a></li>
+                <li><a href="#safe">Product</a></li>
+                <li><a href="#foot">Contact</a></li>
+                <div class="nav3">
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </div>
+            </ul>
+
+            <!-- <div class="icon">
+                <i class="fa-solid fa-eye"></i>
+                <span>0</span>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-heart"></i>
+                <span>0</span>
+            </div> -->
+
+            <!-- CART ICON -->
+            
+                <div class="iconsss">
                     <div class="icon">
                         <i class="fa-solid fa-cart-shopping"></i>
                         <span class="totalQuantity">0</span>
                     </div>
 
+                    <div class="center">
+                        <p></p>
+                    </div>
 
-
-                    <div class="nav3">
-                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    <div class="log">
+                        <i class="fa-solid fa-user"></i>
                     </div>
                 </div>
+    
+               
+
+
+            <div class="nav3">
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </div>
+        </nav>
+        <div class="navcontainer">
+            <div class="nav">
 
             <!-- THE SHOPPING CART OF THE PRODUCT  -->
                 <div class="cardTab">
@@ -81,31 +98,205 @@
                         <a href="checkout.html"><button class="checkout">CHECKOUT</button></a>
                     </div>
                 </div>
+               <div class="good">
+                <div class="times">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+
+                <div class="wrapping">
+                    <span class="bg-animate"></span>
+                    <span class="bg-animate2"></span>
+
+                    <div class="form-box loggin">
+                        <h2 class="animation" style="--i:0;">login</h2>
+                        <form action="#">
+                            <div class="input-box animation" style="--i:1;">
+                                <input type="email" id="EMAIL" required >
+                                <label>Email</label>
+                                <i class='bx bxs-envelope'></i>
+                                <!-- <i class='bx bxs-user'></i> -->
+                            </div>
+                            <div class="input-box animation" style="--i:2;">
+                                <input type="password" id="PASSWORD" required >
+                                <label>password</label>
+                                <i class='bx bxs-lock-alt'></i>
+                            </div>
+                            <button type="submit" id="sub" class="btn animation" style="--i:3;">Login</button>
+                            <div class="logreg-link animation" style="--i:4;">
+                                <p>Don't have an account? <a href="#" class="register-link">Sign Up</a></p>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="info-text loggin">
+                        <h2 class="animation" style="--i:0;">welcome Back!</h2>
+                        <p class="animation" style="--i:1;">It's so good to see you again!</p>
+                    </div>
+
+
+                    <div class="form-box register">
+                        <h2 class="animation" style="--i:17;">Sign Up</h2>
+                        <form action="#">
+                            <!-- <div class="input-box animation" style="--i:18;">
+                                <input type="text" required >
+                                <label>Username</label>
+                                <i class='bx bxs-user'></i>
+                            </div> -->
+                            <div class="input-box animation" style="--i:19;">
+                                <input type="email" id="EMAIL" required >
+                                <label>Email</label>
+                                <i class='bx bxs-envelope'></i>
+                            </div>
+                            <div class="input-box animation" style="--i:20;">
+                                <input type="password" id="PASSWORD" required >
+                                <label>password</label>
+                                <i class='bx bxs-lock-alt'></i>
+                            </div>
+                            <button type="submit" id="submit" class="btn animation" style="--i:21;">Sign Up</button>
+                            <div class="logreg-link animation" style="--i:22;">
+                                <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="info-text register">
+                        <h2 class="animation" style="--i:17;">Hello there!</h2>
+                        <p class="animation" style="--i:18;">We are so excited to have you here</p>
+                    </div>
+                </div>
+               </div>
             
 
                 <div class="head">
+                    <div class="nee">
+                        <img src="new.jpg" alt="">
+                    </div>
                     <div class="header-text">
-                        <i class="fa-sharp fa-solid fa-door-open"></i>
-                        <h1>Welcome To <br>Over<br> D'JORDAN BRAND</h1>
-                        <p>The Home Of Quality Bolt And Nuts...</p>
+                        <div class="let"></div>
+                        <div class="int">
+                        <!-- <i class="fa-sharp fa-solid fa-door-open"></i> -->
+                        <h1>WELCOME <br> TO OVER D'JORDAN <br>  <span>BRAND</span>...</h1>
+                        <p>The Home Of Quality Bolt And Nuts.</p>
+                        </div>
+                        <div class="let1"></div>
                     </div>
                     <div class="stuff">
                         <a href="#Bolt and Nuts">Shop <span>Now</span></a>
                     </div>
-                    <div class="about-col-0">
+                    <!-- <div class="about-col-0">
                         <img src="bolt3.jpg">
-                    </div>
+                    </div> -->
                 </div>
-            </nav>
+            </div>
         </div>
     </div>
 
-    <div class="back">
+    <!-- <div class="back">
         <img src="ima/use1-removebg-preview.png" alt="">
+    </div> -->
+
+
+    <div class="vids" id="vids">
+        <video loop muted autoplay plays-inline class="background-clip">
+            <source src="vid.mp4" type="video/mp4">
+        </video>
+
+        <video loop muted autoplay plays-inline class="background-clip">
+            <source src="vid2.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="pair">
+        <div class="pair1">
+            <h1>Construction</h1>
+            <p>"Build with strength and confidence! <br> Get high-quality construction materials like <br> bolt bands, nuts, and threaded rods at unbeatable prices <br> - visit us today and take your projects to new heights!"</p>
+            <div class="now">
+                <a href="#boltt">Shop Now</a>
+            </div>
+        </div>
+        <div class="pair2">
+            <h1>Safety</h1>
+            <p>"Stay safe, work smart! Get top-quality <br> safety gear and handyman tools - hard hats, <br> respirators, drills, grinders, and more - at affordable prices, <br> only at Over d' Jordan!"
+
+            </p>
+            <div class="now">
+                <a href="#safe">Shop Now</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="inflex">
+        <div class="in">
+            <h1>New In-Stock Items</h1>
+            <p></p>
+        </div>
+
+        <div class="vieww">
+            <a href="#boltt">View All</a>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slide-track">
+
+            <div class="slide onee">
+                <h2>Self-Drilling</h2>
+            </div>
+            <div class="slide twoo">
+                <h2>chipboard-screw</h2>
+            </div>
+            <div class="slide three">
+                <h2>Black Screw</h2>
+            </div>
+            <div class="slide fourr">
+                <h2>Bolt and Nut</h2>
+            </div>
+            <div class="slide fivee">
+                <h2>Tee Nut</h2>
+            </div>
+            <div class="slide sixx">
+                <h2>Rawl Bolt</h2>
+            </div>
+            <div class="slide sevenn">
+                <h2>Hilti Bolt</h2>
+            </div>
+            <div class="slide eightt">
+                <h2>Tapping Screw</h2>
+            </div>
+            <div class="slide ninee">
+                <h2>Anchor Nut</h2>
+            </div>
+            <div class="slide tenn">
+                <h2>Butterfly Nut</h2>
+            </div>
+            <div class="slide elevenn">
+                <h2>Washer</h2>
+            </div>
+
+            <div class="slide twelve">
+                <h2>Hard Hat</h2>
+            </div>
+            <div class="slide thirteen">
+                <h2>Ear Muff</h2>
+            </div>
+            <div class="slide fourteen">
+                <h2>Safety Boots</h2>
+            </div>
+            <div class="slide fifteen">
+                <h2>Safety Glasses</h2>
+            </div>
+            <div class="slide sixteen">
+                <h2>Respirator</h2>
+            </div>
+            <div class="slide seventeen">
+                <h2>Safety Vest</h2>
+            </div>
+        
+        
+        </div>
     </div>
 
     <!---------ABOUT---------->
-    <div id="About">
+    <!-- <div id="About">
         <div class="bar">
             <div class="about-col-1">
                 <img src="dad3.webp">
@@ -121,7 +312,7 @@
                     WE EQUALLY ENGAGE IN GENERAL GOODS PROVISIONS.
                     OVER D JORDAN HAS CARVED A NITCH IN ON THE PRECISION SUPPLIES, ACCURACY AND COMPETITIVE PRICING.
                 </p>
-                <!-- <a href="">Learn More</a> -->
+                <a href="">Learn More</a>
             </div>
         </div>
 
@@ -129,7 +320,7 @@
             <img src="ima/use5-removebg-preview.png" alt="">
         </div>
  
-        <div class="bar2">
+        <div class="bar2 hide">
             <div class="about-col-3">
                 <h2><span>What</span> Do <span>We</span> Offer ?</h2>
                 <i class="fa-solid fa-seal-question"></i>
@@ -138,13 +329,13 @@
                     REGIONS.
                     WE MAINTAIN A GOOD NUMBER OF DEDICATED STAFF WHO WORK SYNCHRONIZINGLY TO ENSURE OUR
                     CUSTOMERS' SATISFACTION.</p>
-                <!-- <a href="">Learn More</a> -->
+                <a href="">Learn More</a> 
             </div>
             <div class="about-col-4">
                 <img src="hard-hat.jpg">
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 
@@ -155,8 +346,12 @@
                 <h1>HUNDREDS OF <br>CLIENTS TRUST OUR <br>COMPANY</h1>
             </div>
             <div class="right">
-                <div class="back3">
-                    <img src="ima/use_now-removebg-preview.png" alt="">
+                <div class="backa">
+                    <!-- <img src="ima/use_now-removebg-preview.png" alt=""> -->
+
+
+
+    <dotlottie-player src="https://lottie.host/4d853e5a-aaac-4807-ba90-deaf71f1a136/jZUMTAW2fF.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
                 </div>
             </div>
         </div>
@@ -168,8 +363,8 @@
     </div>
 
     <div class="tab-titles">
-        <p class="tab-links active-link" onclick="opentab('Bolt and Nuts')">Bolt and Nuts</p>
-        <p class="tab-links" onclick="opentab('Safety Tools')">Safety Tools</p>
+        <p class="tab-links active-link" id="boltt" onclick="opentab('Bolt and Nuts')">Bolt and Nuts</p>
+        <p class="tab-links" id="safe" onclick="opentab('Safety Tools')">Safety Tools</p>
     </div>
 
     <section id="Bolt and Nuts" class="prod active-tab">
@@ -566,7 +761,7 @@
                     <i class="fas fa-star-half-alt"></i>
                     
                     <div class="add">
-                        <button>Add To Cart</button>
+                        <button>Ask for price</button>
                     </div>
 
                 </div> 
@@ -1029,7 +1224,7 @@
             <!-- <div class="ship">
                 <h1>Talk To Us...</h1>
             </div> -->
-            <form name="submit-to-google-sheet" id="form">
+            <form name="submit-to-google-sheet" id="form" class="formm">
                 <div class="input1">
                     <div class="name">
                         <input type="name" name="Name" id="name" placeholder="NAME" required>
@@ -1050,7 +1245,7 @@
                 <div class="message">
                     <textarea name="Message" id="Message" placeholder="Message" cols="30" rows="10"></textarea>
                 </div>
-                <button type="submit" class="btn btn2">
+                <button type="submit" class="btnn btn2">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -1122,7 +1317,7 @@
 
 
 
-    <div class="news">
+    <!-- <div class="news">
         <div class="read">
             <p>Never miss our updates about <br>new arrivals and special offers.</p>
         </div>
@@ -1134,7 +1329,7 @@
                 <button>Subscribe Now</button>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <div class="back6">
@@ -1157,7 +1352,7 @@
 
 
 
-    <footer>
+    <footer id="foot">
         <div class="first1">
             <div class="flex1">
 
@@ -1196,7 +1391,7 @@
     </div>
 
     <div class="talk">
-        <a href="https://wa.me/message/ZMGWPNF6QS3NF1"><i class="fa-brands fa-square-whatsapp"></i> chat with us</a>
+        <a href="https://wa.me/message/ZMGWPNF6QS3NF1"><i class="fa-brands fa-square-whatsapp"></i> <span>chat with us</span></a>
     </div>
 
 
@@ -1258,9 +1453,38 @@
                 .catch(error => console.error('Error!', error.message))
         })
     </script>
+
+
+<script>
+    const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        } else {
+            entry.target.classList.remove('show');
+        }
+    });
+});
+
+
+
+const hiddenElements = document.querySelectorAll('.header-text');
+hiddenElements.forEach((el) => observer.observe(el));
+</script>
+
+<script>
+</script>
     <script src="cart.js"></script>
+
+    <script src="log.js"></script>
+
+    <script src="payment.js"></script>
 
 
 </body>
 
 </html>
+
+
+
