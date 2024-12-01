@@ -331,6 +331,14 @@ nav ul li a::after{
     animation-play-state:running ;
     animation-timing-function:ease-in-out ;
 }
+.adding {
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #9CA3DB;
+    color:#9CA3DB ;
+    margin-top: 10px;
+    cursor: pointer;
+}
 @keyframes animate{
     0%{
     image: url(bolt4.jpg);
@@ -603,7 +611,6 @@ nav ul li a::after{
     background-color: #9CA3DB;
     color: white;
     border: none;
-    padding: 15px 30px;
     cursor: pointer;
     margin-top: 25px;
     font-weight: bold;
@@ -687,11 +694,8 @@ nav ul li a::after{
     color: #fff;
     transition: background 0.5s;
     background:#FCA311; */
-    margin-top: 10px;
-    color: #9CA3DB;
-    transition: 0.5s;
 }
-.add button{
+/* .add button{
     padding:10px 15px;
     border: 1px solid #9CA3DB;
     background-color: transparent;
@@ -701,7 +705,7 @@ nav ul li a::after{
 .add button:hover{
     background: #9CA3DB;
     color: black;
-}
+} */
 .product-container h1{
     font-size: 30px;
     text-align: center;
@@ -965,6 +969,20 @@ footer ul li a:hover{
     backdrop-filter: blur(4px);
 }
 .formm input, .formm textarea{
+    width:250px;
+    border: 0;
+    outline:1px solid black;
+    background:white;
+    padding: 25px;
+    height: 30px;
+    /* margin: 15px 0; */
+    color: black;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.formmm input, .formmm textarea{
     width:250px;
     border: 0;
     outline:1px solid black;
@@ -1868,9 +1886,81 @@ button .animation{
     transform: rotate(-11deg) skewY(-41deg);
     transition-delay: 1.2s;
 }
-
+.gid{
+    display: none;
+}
+.timess{
+    position: absolute;
+    top: 30px;
+    left: 80%;
+    font-size: 30px;
+    cursor: pointer;
+}
+.timess i{
+    position: fixed;
+}
+.timess.main .mainb{
+    display: none;
+}
+.mainb{
+    position: fixed;
+    top:30px;
+    left: 30%;
+    border: 2px solid white;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    border-radius: 6px;
+}
+.mainb .btnn{
+    margin-left: 30%;
+    letter-spacing: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.mainb .email textarea{
+    background-color: yellow;
+}
+.gid.main{
+    display: block;
+}
+.add p{
+    border: 1px solid #9CA3DB;
+    padding: 5px;
+    cursor: pointer;
+}
+.question{
+    margin-left: 230px;
+}
+.add a button{
+    padding: 10px 15px;
+    background: transparent;
+    border: 1px solid #9CA3DB;
+    color: #9CA3DB;
+}
 
 @media only screen and (max-width: 600px){
+    .mainb{
+        position: fixed;
+        top:10px;
+        left: 10%;
+        border: 2px solid white;
+        padding: 20px;
+        backdrop-filter: blur(10px);
+        border-radius: 6px;
+    }
+    .question{
+        margin-left: 80px;
+    }
+    .submit .btn{
+        margin-left: 2px;
+    }
+    .timess{
+        position: absolute;
+        top: 10px;
+        left: 87%;
+        font-size: 30px;
+        cursor: pointer;
+    }
     .wrapping{
         justify-content: center;
         align-items: center;
@@ -2192,7 +2282,20 @@ button .animation{
         color: #ccc;
         backdrop-filter: blur(4px);
     }
-    form input, form textarea{
+    .formm input, .formm textarea{
+        width:200px;
+        border: 0;
+        outline:1px solid black;
+        background:white;
+        padding: 20px;
+        height: 0px;
+        color: black;
+        font-size: 18px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .formmm input, .formmm textarea{
         width:200px;
         border: 0;
         outline:1px solid black;
@@ -2227,7 +2330,10 @@ button .animation{
         border-radius: 5px;
     }
     .email input, .email textarea{
-        margin-left: 10px;
+        margin-left: 20px;
+    }
+    .email{
+        margin-left: 0px;
     }
     .main6{
         /* display: flex; */
@@ -2237,25 +2343,21 @@ button .animation{
         width: fit-content;
         padding: 30px;
         background-color: transparent;
-        margin-left: 15%;
+        margin-left: 2%;
         margin-top: 50px;
         backdrop-filter: blur(20px);
     }
     form .btn2{
         position: relative;
-        display: inline-block;
         border: 1px solid transparent;
-        padding: 15px 50px;
-        font-size: 18px;
-        margin-top: 100px;
+        padding: 30px;
+        font-size: 16px;
         cursor: pointer;
-        background-color: white;
+        background-color: transparent;
         transition: background 0.5s;
-        letter-spacing: 3px;
         overflow: hidden;
-        color: black;
+        color: white;
         transform: 0.2s;
-        font-size: 12px;
     }
     form .btn2 span{
         position: absolute;
@@ -2342,8 +2444,6 @@ button .animation{
         font-size: 12px;
     }
     .submit button{
-        padding:9px ;
-        margin-left: 5px;
         cursor: pointer;
     }
     .about-col-4 img{

@@ -53,6 +53,12 @@
       "name": "Driller",
       "price": "70000",
       "image": "drill2.jpg"
+    },
+    {
+      "id": 10,
+      "name": "silicone sealant",
+      "price": "70000",
+      "image": "silicon.jpg"
     }
   ]
   

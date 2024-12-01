@@ -32,7 +32,7 @@ function addDataToHTML(){
       `<img src="${products.image}">
       <h3>${products.name}</h3>
        <p >&#x20A6;${products.price}</p>
-       <div class="add"><a href="#form"><button>Ask for price</button></a></div>`;
+       <div class="add"><a href="#formi"><button>Ask for price</button></a></div>`;
        flexHTML.appendChild(newProducts);
     });
   }
